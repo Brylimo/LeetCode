@@ -1,3 +1,4 @@
+// 임채진
 class FirstUnique {
     Queue<Integer> queue = new LinkedList<Integer>();
     HashMap<Integer, Boolean> map = new HashMap<>();
@@ -15,6 +16,7 @@ class FirstUnique {
         if (!queue.isEmpty()) {
             return queue.peek();
         }
+        //
         return -1;
     }
     
